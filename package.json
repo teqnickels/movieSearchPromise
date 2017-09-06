@@ -1,0 +1,31 @@
+{
+  "name": "moviesearch",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --compilers js:babel-register tests.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/teqnickels/movieSearch.git"
+  },
+  "author": "debrena mcewen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/teqnickels/movieSearch/issues"
+  },
+  "homepage": "https://github.com/teqnickels/movieSearch#readme",
+  "dependencies": {
+    "babel": "^6.23.0",
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.1.4",
+    "chai": "^4.1.1",
+    "cheerio": "^1.0.0-rc.2",
+    "cheerio-tableparser": "^1.0.1",
+    "mocha": "^3.5.0",
+    "nock": "^9.0.14",
+    "request": "^2.81.0",
+    "request-promise": "^4.2.1"
+  }
+}
